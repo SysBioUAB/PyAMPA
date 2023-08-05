@@ -5,11 +5,11 @@
 
 PyAMPA is a complete new implementation of the AMPA algorithm (https://tcoffee.crg.eu/apps/ampa/do), originally designed to predict antimicrobial sequences in proteins. With PyAMPA you can now predict antimicrobial sequences from entire proteomes and has new features such as optimization, mutagenesis and interactive tables for visualizing data.
 
-**If you found this work useful, please cite us:
+**If you found this work useful, please cite us:**
 
---PyAMPA-- Coming soon.
+**--PyAMPA-- Coming soon.**
 
---Original AMPA-- Marc Torrent, Paolo Di Tommaso, David Pulido, M. Victòria Nogués, Cedric Notredame, Ester Boix, David Andreu: AMPA: an automated web server for prediction of protein antimicrobial regions (2011) Bioinformatics 28(1):130-131.**
+**--Original AMPA-- Marc Torrent, Paolo Di Tommaso, David Pulido, M. Victòria Nogués, Cedric Notredame, Ester Boix, David Andreu: AMPA: an automated web server for prediction of protein antimicrobial regions (2011) Bioinformatics 28(1):130-131.**
 
 
 ## Installation
