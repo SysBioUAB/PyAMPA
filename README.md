@@ -45,7 +45,7 @@ Follow the instructions below to set up and run the application.
 - Additional libraries: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, PIL (Pillow). You can install the required dependencies using the following command:
 
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn pillow
+pip install numpy pandas matplotlib seaborn scikit-learn pillow biopython
 ```
 
 ### Downloading the Application
