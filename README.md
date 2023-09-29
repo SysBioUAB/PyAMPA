@@ -36,10 +36,10 @@ Follow the instructions below to set up and run the application.
   pip install tk
   ```
   
-- Additional libraries: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, PIL (Pillow). You can install the required dependencies using the following command:
+- Additional libraries: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, Pillow, BioPython and Tqdm. You can install the required dependencies using the following command:
 
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn pillow biopython tqdm
+pip install numpy pandas matplotlib seaborn scikit-learn==1.1.2 pillow biopython tqdm
 ```
 
 ### Downloading the Application
