@@ -29,12 +29,6 @@ Follow the instructions below to set up and run the application.
   If your version is < 3.11, updating Python is suggested
 
 - Tkinter for the GUI
-
-  To install Tkinter in Ubuntu Linux:
-
-  ```bash
-  sudo apt install python3-tk
-  ```
   
   To install Tkinter:
 
@@ -45,7 +39,7 @@ Follow the instructions below to set up and run the application.
 - Additional libraries: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, PIL (Pillow). You can install the required dependencies using the following command:
 
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn pillow biopython
+pip install numpy pandas matplotlib seaborn scikit-learn pillow biopython tqdm
 ```
 
 ### Downloading the Application
