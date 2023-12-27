@@ -36,6 +36,8 @@ MAX_NO_IMPROVEMENT = 20
 CROSSOVER_RATE = 0.8
 MUTATION_RATE = 0.2
 amino_acids = ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y']
+amino_acids_mutate = ['A', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y']
+
 # Define your weights
 w1 = 1
 w2 = 1
@@ -131,7 +133,7 @@ def mutate_sequence(sequence):
     mutation_index = random.randint(0, len(sequence) - 1)
 
     # Choose a new amino acid that is different from the current one
-    new_amino_acid = random.choice([aa for aa in amino_acids if aa != sequence[mutation_index]])
+    new_amino_acid = random.choice([aa for aa in amino_acids_mutate if aa != sequence[mutation_index]])
 
     # Create the new sequence with the mutation
     new_sequence = sequence[:mutation_index] + new_amino_acid + sequence[mutation_index + 1:]
