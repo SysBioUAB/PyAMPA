@@ -74,9 +74,4 @@ Within the application, you can:
 
 If you encounter any issues or have questions about specific functionalities, please refer to the code documentation or contact the development team.
 
-## License
-
-Include information about the license if applicable.
-
-
 ---
