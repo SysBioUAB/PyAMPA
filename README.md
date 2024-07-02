@@ -7,9 +7,12 @@ PyAMPA is a complete new implementation of the AMPA algorithm (https://tcoffee.c
 
 **If you found this work useful, please cite us:**
 
-**--PyAMPA-- Coming soon.**
+**--PyAMPA-- Ramos-Llorens M, Bello-Madruga R, Valle J, Andreu D, Torrent M. 0. PyAMPA: a high-throughput prediction and optimization tool for antimicrobial peptides. mSystems 0:e01358-23.**
 
 **--Original AMPA-- Marc Torrent, Paolo Di Tommaso, David Pulido, M. Victòria Nogués, Cedric Notredame, Ester Boix, David Andreu: AMPA: an automated web server for prediction of protein antimicrobial regions (2011) Bioinformatics 28(1):130-131.**
+
+NEW!: PyAMPA is also available in google colab:
+[PyAMPA](https://colab.research.google.com/drive/14tWiJeQycnDdY4tD6JchcJxRrJ9QB2MB?usp=share_link).
 
 
 ## Installation
